@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+RewriteRule (.*?)$ index.php?url_path=$1/ [L,QSA]
+</IfModule>
