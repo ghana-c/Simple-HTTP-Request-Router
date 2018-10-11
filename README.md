@@ -60,16 +60,14 @@ NOTE: You have to declare variable named **$_request** as member variable of cla
 
 Return variable of this class method is the response, you get via API
 
-**
-NOTE: If you want to use this [Example](https://github.com/ghana-c/Simple-HTTP-Request-Router/blob/master/example.php), please follow rules below :
+**NOTE: If you want to use this [Example](https://github.com/ghana-c/Simple-HTTP-Request-Router/blob/master/example.php), please follow rules below :**
 
 1. Set `DocumentRoot` as 
 ```PHP
 /your/projects/directory/RequestRouter/example/
 ```
 
-2. Use .htaccess file in example directory.
-**
+2. Use .htaccess file in example directory
 
 ### Author
 
