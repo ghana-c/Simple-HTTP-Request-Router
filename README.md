@@ -21,7 +21,7 @@ NOTE: You can specify absolute path.
 
 #### Usage
 
-Suppose, you want to route API request to to any function present in any class file, then you can do that using HTTP Request Router. You can see the [Example](https://github.com/ghana-c/Simple-HTTP-Request-Router/blob/master/example.php) :
+Suppose, you want to route API request to to any function present in any class file, then you can do that using HTTP Request Router. You can see the [Example](https://github.com/ghana-c/Simple-HTTP-Request-Router/blob/master/example/index.php) :
 
 In above example, you want to first inlude the class file `RequestRouter` and `AppRequest` as below:
 
@@ -44,7 +44,7 @@ NOTE: Use htaccess rule to route your request as below :
 RewriteRule (.*?)$ index.php?url_path=$1/ [L,QSA]
 ```
 
-Please refer the [Example](https://github.com/ghana-c/Simple-HTTP-Request-Router/blob/master/example.php). As you can see, your URL must be **http://your-domain-name/class-name/method-name?additional-parameters** e.g. as below :
+Please refer the [Example](https://github.com/ghana-c/Simple-HTTP-Request-Router/blob/master/example/index.php). As you can see, your URL must be **http://your-domain-name/class-name/method-name?additional-parameters** e.g. as below :
 
 ```PHP
 http://localhost/products/details?id=1
@@ -60,7 +60,7 @@ NOTE: You have to declare variable named **$_request** as member variable of cla
 
 Return variable of this class method is the response, you get via API
 
-**NOTE: If you want to use this [Example](https://github.com/ghana-c/Simple-HTTP-Request-Router/blob/master/example.php), please follow rules below :**
+**NOTE: If you want to use this [Example](https://github.com/ghana-c/Simple-HTTP-Request-Router/blob/master/example/index.php), please follow rules below :**
 
 1. Set `DocumentRoot` as 
 ```PHP
