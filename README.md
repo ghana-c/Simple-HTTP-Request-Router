@@ -63,7 +63,11 @@ Return variable of this class method is the response, you get via API
 **
 NOTE: If you want to use this [Example](https://github.com/ghana-c/Simple-HTTP-Request-Router/blob/master/example.php), please follow rules below :
 
-1. Set `DocumentRoot` as /your/projects/directory/RequestRouter/example/
+1. Set `DocumentRoot` as 
+```PHP
+/your/projects/directory/RequestRouter/example/
+```
+
 2. Use .htaccess file in example directory.
 **
 
